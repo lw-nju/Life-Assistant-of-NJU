@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let myNavigationBar=self.navigationController?.navigationBar
+        myNavigationBar?.backgroundColor=UIColor.redColor()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

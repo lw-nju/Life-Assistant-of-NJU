@@ -14,6 +14,8 @@
 		017E80421D02C9F5004F5521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017E80401D02C9F5004F5521 /* LaunchScreen.storyboard */; };
 		017E804D1D02C9F5004F5521 /* Life_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E804C1D02C9F5004F5521 /* Life_AssistantTests.swift */; };
 		017E80581D02C9F5004F5521 /* Life_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E80571D02C9F5004F5521 /* Life_AssistantUITests.swift */; };
+		018902571D031DD00066D280 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 018902561D031DD00066D280 /* icon.png */; };
+		018902591D034D900066D280 /* cs.png in Resources */ = {isa = PBXBuildFile; fileRef = 018902581D034D900066D280 /* cs.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		017E80531D02C9F5004F5521 /* Life-AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life-AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017E80571D02C9F5004F5521 /* Life_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_AssistantUITests.swift; sourceTree = "<group>"; };
 		017E80591D02C9F5004F5521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018902561D031DD00066D280 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		018902581D034D900066D280 /* cs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cs.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		017E802B1D02C9F5004F5521 = {
 			isa = PBXGroup;
 			children = (
+				018902581D034D900066D280 /* cs.png */,
+				018902561D031DD00066D280 /* icon.png */,
 				017E80361D02C9F5004F5521 /* Life-Assistant */,
 				017E804B1D02C9F5004F5521 /* Life-AssistantTests */,
 				017E80561D02C9F5004F5521 /* Life-AssistantUITests */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					017E80331D02C9F5004F5521 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9P9W2PACUE;
 					};
 					017E80471D02C9F5004F5521 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,6 +236,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018902591D034D900066D280 /* cs.png in Resources */,
+				018902571D031DD00066D280 /* icon.png in Resources */,
 				017E80421D02C9F5004F5521 /* LaunchScreen.storyboard in Resources */,
 				017E803F1D02C9F5004F5521 /* Assets.xcassets in Resources */,
 				017E803D1D02C9F5004F5521 /* Main.storyboard in Resources */,
@@ -401,10 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Life-Assistant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wei-liu.Life-Assistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Life-Assistant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wei-liu.Life-Assistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +499,7 @@
 				017E805E1D02C9F5004F5521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		017E805F1D02C9F5004F5521 /* Build configuration list for PBXNativeTarget "Life-AssistantTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +508,7 @@
 				017E80611D02C9F5004F5521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		017E80621D02C9F5004F5521 /* Build configuration list for PBXNativeTarget "Life-AssistantUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +517,7 @@
 				017E80641D02C9F5004F5521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
