@@ -105,23 +105,16 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQb-nq-zcf">
-                                <rect key="frame" x="169" y="99" width="144" height="178"/>
-                                <state key="normal" backgroundImage="icon.png"/>
-                                <connections>
-                                    <segue destination="tga-hL-4Yt" kind="show" id="v9I-OJ-EnM"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkV-PM-CDl">
                                 <rect key="frame" x="10" y="299" width="142" height="178"/>
-                                <state key="normal" backgroundImage="icon.png"/>
+                                <state key="normal" backgroundImage="3.png"/>
                                 <connections>
                                     <segue destination="mNW-Sm-9bh" kind="show" id="esO-2W-UpR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewU-UX-O5k">
                                 <rect key="frame" x="10" y="99" width="142" height="178"/>
-                                <state key="normal" backgroundImage="icon.png">
+                                <state key="normal" backgroundImage="1.jpg">
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -130,9 +123,16 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSs-IM-HAs">
                                 <rect key="frame" x="169" y="299" width="144" height="178"/>
-                                <state key="normal" backgroundImage="icon.png"/>
+                                <state key="normal" backgroundImage="4.png"/>
                                 <connections>
                                     <segue destination="5xo-vN-cbc" kind="show" id="eED-c4-qZL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQb-nq-zcf">
+                                <rect key="frame" x="169" y="99" width="144" height="178"/>
+                                <state key="normal" backgroundImage="2.jpg"/>
+                                <connections>
+                                    <segue destination="tga-hL-4Yt" kind="show" id="v9I-OJ-EnM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -275,12 +275,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 0.3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcg-J1-hPR">
-                                <rect key="frame" x="115" y="427" width="87" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="NLc-ew-59S">
                                 <rect key="frame" x="47" y="258" width="103" height="128"/>
                             </imageView>
@@ -290,6 +284,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Life Assistant of NJU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqz-sa-UAy">
                                 <rect key="frame" x="47" y="101" width="234" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 0.4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcg-J1-hPR">
+                                <rect key="frame" x="115" y="427" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -319,6 +319,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1.jpg" width="285" height="329"/>
+        <image name="2.jpg" width="340" height="405"/>
+        <image name="3.png" width="364" height="372"/>
+        <image name="4.png" width="376" height="330"/>
         <image name="cs.png" width="252" height="219"/>
         <image name="icon.png" width="127" height="128"/>
     </resources>
